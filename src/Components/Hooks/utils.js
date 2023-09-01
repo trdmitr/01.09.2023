@@ -27,7 +27,7 @@ export const tzitata = (imgLink) => {
     return (
         <div>
     <p className={linkVideo ? '' : classes.mediaHidden}>{linkName}</p>
-    {linkVideo.includes('youtube.com') ? <ReactPlayer className={linkVideo ? '' 
+    {linkVideo.includes('youtu.be') ? <ReactPlayer className={linkVideo ? '' 
     : classes.mediaHidden.join(' ')} id={classes.videoFrame} url={linkVideo} controls={true} origin = {window.location.hostname}/> 
     :  <video className={[classes.videoBlock, linkVideo ? '' : classes.mediaHidden].join(' ')} src={linkVideo} controls={true} type="video/mp4" ></video>}
     </div>

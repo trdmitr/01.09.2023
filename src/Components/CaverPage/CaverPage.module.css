@@ -34,7 +34,7 @@
     width: calc(50% - 1.5em);
     height: auto;
    padding: 2.4em; 
-   background-color: #11e78680;
+   background-color: var(--buttonBack);
    border-radius: 0.5em;
    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
    border: 2px solid  white;
@@ -48,7 +48,7 @@
     font-size: 1.7em;
     font-weight: bold;
     color: #fff;
-    background-color: rgba(134, 134, 134, 0.5);
+    background-color: rgb(50 171 238);
     border-radius: 0.5em;
     border-top-left-radius: 0em;
     border-top-right-radius: 0em;

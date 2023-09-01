@@ -14,12 +14,12 @@ import Loader from '../Loader/Loader';
 export const CaverPage = () => {
   const [modal, setModal] = useState(false);
   const location = useLocation();
-  const urlParse22 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS52OJVBXakVJJnHU8cbEgEkif1BreSpBggtNu3In7GOPTMyHv9UL-uZie_1TnqdKnBnqvzF72v3mHz/pub?output=csv";
+  const urlParse22 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7Uy4o4VuZ0EvZPjLNdH3188wKU5xoW3dXV-l3tDOL6CwOXsoIzQ5oN_Tz8JsDlPattjOaoAIWPyd5/pub?output=csv";
   // const urlParse21 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSJpAqJmngxzKzdpaHbqA9kxuJkx0eljTICVi0qJ6Qk6-1YcpFBitfQOV2C2qHZ9uZF04zeNLYUSXov/pub?output=csv"
   // const urlParse22 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTqMSBKbaIPUyfikTyHNpByUzLbxWxChMy96gx1a7WKMXFGNydi2ZTgotnDwgbhLjGkXuTlhGGgsKZ8/pub?output=csv";
   // ДДТ-2022 НОРМ
   const urlParse21= "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6iuzOmkC7RdMVy7xGA9nVlygwhtlxVTzkcr5yaJkAFm6CZadNibed7Wa2CNVmZa4L1ehka2mropLl/pub?output=csv";
-  const urlParse23 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtF49COFNRNxRK6VrFKWN1wXHLsfLPMZbJ0cKNmd4MUCOrnMgJ0CVwWFd4RSAByzY99maDNU3TvclY/pub?output=csv"
+  const urlParse23 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7Uy4o4VuZ0EvZPjLNdH3188wKU5xoW3dXV-l3tDOL6CwOXsoIzQ5oN_Tz8JsDlPattjOaoAIWPyd5/pub?output=csv"
   const urlLoc = location.pathname;
   
   const currUrl = urlLoc.includes('cavers21') ? urlParse21 : urlLoc.includes('cavers22') ? urlParse22 : urlLoc.includes('cavers23') ? urlParse23 : "";

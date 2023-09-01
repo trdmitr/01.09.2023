@@ -7,7 +7,7 @@ export const HomePage = () => {
     const imgUrl = "https://sun9-65.userapi.com/impg/_0Dl5pF7zrpR5m98PElDacgI5qX0-MAbMDvg9w/C2r2FVIpqag.jpg?size=642x913&quality=96&sign=100208989acbd686b1d68d21de5656c0&type=album"
     // const imgUrl2 = 'https://sun2-22.userapi.com/impg/2YiE2IW9r0friRMzAEniG_oR87ffPUfqKRswKw/vtMiX4nUf8o.jpg?size=300x300&quality=96&sign=7757c3bd97980caf5674faa89f7781c3&type=album'
     const imgAlt = "Каверы Подземки"
-    // const frontAudio = "https://drive.google.com/uc?export=download&id=1U3M7aGhmpFQHd3SNNupwghkrQagbRKq2";
+    // const frontAudio = "https://drive.google.com/uc?export=download&id=1_16menVJ8g_T4-IZ0VZK_k9zISfKLJAo";
     // const imgTzi = "https://drive.google.com/uc?export=download&id=1gsY4lPUU4pJ07s0JwDBeJjUYddkAuSr3"
     return (
       <div className="device device-iphone-x">
